@@ -1,0 +1,38 @@
+baseURL = "https://www.bobobk.com"
+languageCode = "zh-cn"
+title = "春江暮客"
+hasCJKLanguage = true   # 中日韩语言支持
+theme = "maupassant-hugo"   # 主题名称，与themes目录下名称一致
+enableRobotsTXT = true  # 爬虫支持
+PaginatePath = "page"  # 分页
+summaryLength = 140   # 摘要显示字数
+googleAnalytics = "UA-118758668-3"
+
+[author]
+    name = "春江暮客"
+
+[params]
+    subtitle = "一个python学习者的个人网站"
+    description = "python技巧，学习心得及其他相关内容分享网站,包括python基础应用，机器学习，深度学习，爬虫以及其他linux服务器相关内容"   # 在页面meta属性里
+    keywords = "python,linux,vps,服务器,机器学习,深度学习等内容"   # 在页面meta属性里
+    toc = true  # 支持文章大纲
+    #busuanzi = true
+    registerInfo = "沪ICP备18042563号-1"
+    related = true
+    googleAd = "ca-pub-3250570391881200"
+
+
+[[menu.main]]    # 菜单栏，这里是关于页
+    identifier = "archives"
+    name = "存档"
+    url = "/archives/"
+    weight = 3
+[[menu.main]]    # 菜单栏，这里是关于页
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+[params.cc]
+    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
