@@ -1,0 +1,2 @@
+# bobobk-hugo
+hugo theme
