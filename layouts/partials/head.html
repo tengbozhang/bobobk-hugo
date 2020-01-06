@@ -9,6 +9,9 @@
 
     {{ if .IsHome -}}
     <title>{{ .Site.Title }} | {{ .Site.Params.subtitle}}</title>
+    {{ if .Site.Params.googleVerify }}
+    <meta name="google-site-verification" content="{{.Site.Params.googleVerify}}" />
+    {{ end }}
     <meta property="og:title" content="{{ .Site.Title }} | {{ .Site.Params.subtitle}}">
     <meta property="og:type" content="website">
     <meta name="Keywords" content="{{.Site.Params.keywords}}">

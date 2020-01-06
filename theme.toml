@@ -2,7 +2,7 @@ baseURL = "https://www.bobobk.com"
 languageCode = "zh-cn"
 title = "春江暮客"
 hasCJKLanguage = true   # 中日韩语言支持
-theme = "maupassant-hugo"   # 主题名称，与themes目录下名称一致
+theme = "bobobk-hugo"   # 主题名称，与themes目录下名称一致
 enableRobotsTXT = true  # 爬虫支持
 PaginatePath = "page"  # 分页
 summaryLength = 140   # 摘要显示字数
@@ -20,6 +20,7 @@ googleAnalytics = "UA-118758668-3"
     registerInfo = "沪ICP备18042563号-1"
     related = true
     googleAd = "ca-pub-3250570391881200"
+    googleVerify = "hRMZT-M7lm6l2zK4eNkxypt7dEAAub-PZ0_dPIoaOJE"
 
 
 [[menu.main]]    # 菜单栏，这里是关于页
